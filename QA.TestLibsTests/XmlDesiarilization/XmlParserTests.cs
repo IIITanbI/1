@@ -18,6 +18,7 @@
         public XmlParserTests()
         {
             ReflectionManager.LoadAssemblies();
+            System.Globalization.CultureInfo.DefaultThreadCurrentCulture = System.Globalization.CultureInfo.GetCultureInfo("en-US");
         }
 
         [TestMethod()]

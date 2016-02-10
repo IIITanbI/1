@@ -41,6 +41,7 @@
         [XmlConstraint("IsGrid", true)]
         public bool GridUri { get; set; }
 
+
         [XmlProperty("Is highlightable?")]
         [XmlLocation(XmlLocationType.Element | XmlLocationType.Attribute, "highlightEnabled", "highlight")]
         [XmlConstraint("IsJavaScriptEnabled", true)]

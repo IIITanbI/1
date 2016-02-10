@@ -55,6 +55,13 @@
     </simpleClass3_4>
 
     <simpleClass3_5 string="stringVal">100</simpleClass3_5>
+    
+    <simpleClass3_6>
+      <int>100</int>
+      <enum>Value2</enum>
+      <test>123</test>
+    </simpleClass3_6>
+    
   </simple>
 
 
@@ -152,7 +159,38 @@
 
     </complexClass3_1>
 
+    <complexClass3_2>
+
+      <listOfSomeSimples1>
+
+        <sClass2>
+          <int>100</int>
+        </sClass2>
+
+        <sClass1 key="Key1" int="100" double="100.100" enum="Value2">
+          <datetime><![CDATA[1/18/2016 1:49:30 PM]]></datetime>
+          <bool>true</bool>
+        </sClass1>
+
+      </listOfSomeSimples1>
+
+      <listOfSomeSimples2>
+
+        <sClass2>
+          <int>100</int>
+        </sClass2>
+
+        <sClass1 key="Key1" int="100" double="100.100" enum="Value2">
+          <datetime><![CDATA[1/18/2016 1:49:30 PM]]></datetime>
+          <bool>true</bool>
+        </sClass1>
+
+      </listOfSomeSimples2>
+
+    </complexClass3_2>
+    
   </complex>
+
 
 
 </test>

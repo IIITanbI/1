@@ -13,7 +13,9 @@
     public class XmlLocation
     {
         public List<string> AttributeAllowedNames { get; private set; } = new List<string>();
-        public List<string> ElementAllowedNames { get; private set; } = new List<string>();
+        public List<string> ElementAllowedNames { get;
+            private set;
+        } = new List<string>();
         public bool CouldBeValue { get; private set; } = false;
 
         public XmlLocation(XmlProperty propertyInfo, bool isChildLocation = false)

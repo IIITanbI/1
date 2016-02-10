@@ -81,6 +81,9 @@
             public string StringValue { get; set; } = null;
         }
 
+
+        
+
         [XmlType("Complex class 1")]
         [XmlLocation("cClass1")]
         public class ComplexClass1 : XmlBaseType
@@ -124,5 +127,6 @@
             [XmlProperty("List of some class implemented ISimple", IsAssignableTypesAllowed = true)]
             public List<SimpleClass> ListOfSomeSimples { get; set; }
         }
+        
     }
 }
