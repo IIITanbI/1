@@ -1,0 +1,67 @@
+<webElement name="HeroCentered">
+  <description>Hero Centered Element</description>
+  <webLocator>//*[]</webLocator>
+
+  <childs>
+
+    <webElement name="Layout">
+      <description>Layout tab</description>
+      <webLocator>  </webLocator>
+
+      <childs>
+        <webElement name="styleInput">
+          <description>input enum for style</description>
+          
+          <webLocator>
+            <type>Css</type>
+            <value></value>
+          </webLocator>
+          
+        </webElement>
+        <webElement name="breadcrumbsInput">
+          <description>input checkbox for breadcrumbs</description>
+          
+          <webLocator>
+            <type>Css</type>
+            <value></value>
+          </webLocator>
+          
+        </webElement>
+      </childs>
+    </webElement>
+
+    <webElement name="Text">
+      <description>Text tab</description>
+      <webLocator>  </webLocator>
+
+      <childs>
+        <webElement name="HeadlineInput">
+          <description>Input for headline</description>
+
+          <webLocator>
+            <type>Css</type>
+            <value></value>
+          </webLocator>
+
+        </webElement>
+        <webElement name="breadcrumbsInput">
+          <description>input checkbox for breadcrumbs</description>
+
+          <webLocator>
+            <type>Css</type>
+            <value></value>
+          </webLocator>
+
+        </webElement>
+      </childs>
+    </webElement>
+
+
+
+
+
+
+
+  </childs>
+
+</webElement>
